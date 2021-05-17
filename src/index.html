@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="large-title">
+            <h1 class="large-title__header">Today</h1>
+            <div class="large-title__popup-menu"></div>
+        </div>
+        <ul class="tasks">
+            <li class="tasks__task">
+                <input type="checkbox" class="tasks__checkbox" id="check1">
+                <span class="checkmark"></span>
+                <div class="tasks__content">
+                    <div class="tasks__center">
+                        <label for="check1" class="tasks__text">Start making a presentation</label>
+                    </div>
+                    <div class="tasks__task-category tasks__task-category--green"></div>
+                </div>
+            </li>
+
+            <li class="tasks__task">
+                <input type="checkbox" class="tasks__checkbox" id="check2">
+                <div class="tasks__content">
+                    <div class="tasks__center">
+                        <label for="check2" class="tasks__text">Pay for rent</label>
+                        <div class="tasks__time">
+                            7:00 pm
+                        </div>
+                    </div>
+                    <div class="tasks__task-category tasks__task-category--purple"></div>
+                </div>
+            </li>
+            <li class="tasks__task">
+                <input type="checkbox" class="tasks__checkbox" id="check3">
+                <div class="tasks__content">
+                    <div class="tasks__center">
+                        <label for="check3" class="tasks__text">Buy a milk</label>
+                    </div>
+                    <div class="tasks__task-category tasks__task-category--red"></div>
+                </div>
+            </li>
+            <li class="tasks__task">
+                <input type="checkbox" class="tasks__checkbox" id="check4">
+                <div class="tasks__content">
+                    <div class="tasks__center">
+                        <label for="check4" class="tasks__text">Don’t forget to pick up Mickael<br> from school</label>
+                    </div>
+                    <div class="tasks__task-category tasks__task-category--red"></div>
+                </div>
+            </li>
+            <li class="tasks__task">
+                <input type="checkbox" class="tasks__checkbox" id="check5">
+                <div class="tasks__content">
+                    <div class="tasks__center">
+                        <label for="check5" class="tasks__text">Buy a chocolate for Charlotte</label>
+                    </div>
+                    <div class="tasks__task-category tasks__task-category--red"></div>
+                </div>
+            </li>
+
+        </ul>
+        <h2 class="group">Lists</h2>
+        <ul class="group__lists">
+            <li class="group__category group__category--gray">
+                <div class="group__category-text group__category-text--black">Inbox</div>
+                <div class="group__category-task group__category-task--black">1 task</div>
+            </li>
+            <li class="group__category group__category--green">
+                <div class="group__category-text group__category-text--white">Work</div>
+                <div class="group__category-task group__category-task--white">2 tasks</div>
+            </li>
+            <li class="group__category group__category--red">
+                <div class="group__category-text group__category-text--white">Shopping</div>
+                <div class="group__category-task group__category-task--white">3 tasks</div>
+            </li>
+            <li class="group__category group__category--yellow">
+                <div class="group__category-text group__category-text--black">Family</div>
+                <div class="group__category-task group__category-task--black">1 task</div>
+            </li>
+            <li class="group__category group__category--purple">
+                <div class="group__category-text group__category-text--white">Personal</div>
+                <div class="group__category-task group__category-task--white">4 tasks</div>
+            </li>
+        </ul>
+        <div class="button-add"></div>
+    </div>
+
+    <script src="../dist/main.js"></script>
+</body>
+
+</html>
